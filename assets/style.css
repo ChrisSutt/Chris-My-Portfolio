@@ -91,9 +91,9 @@ header img {
     color: white;
     margin-bottom: 20px;
     margin-left: 50px;
-    font-size: 50px;
+    font-size: 35px;
     width: 60%;
-    border-bottom: 3px solid red;
+    border-bottom: 2px groove silver;
     
 }
 
@@ -132,7 +132,7 @@ header img {
 }
 
 nav a:hover {
-    color: chartreuse;
+    color: silver;
 }
 
  
