@@ -134,6 +134,12 @@ header img {
     display: inline;
 }
 
+.footer img {
+    height: 40px;
+    width: auto;
+    margin: 2px;
+}
+
 .footer ul {
     padding: 5px;
     margin-top: 5px;
