@@ -119,7 +119,9 @@ header img {
 
 
 .footer {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: rgb(51, 51, 51);
     width: 100%;
     max-width: 100%;
@@ -131,17 +133,27 @@ header img {
 }
 
 .footer li {
+    display: flex;
+    flex-wrap: wrap;
     display: inline;
 }
 
 .footer img {
+    display: flex;
+    flex-wrap: wrap;
     height: 40px;
     width: auto;
     margin: 2px;
 }
 
 .footer ul {
+    display: flex;
+    flex-wrap: wrap;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.footer p {
+    text-align: center;
 }
