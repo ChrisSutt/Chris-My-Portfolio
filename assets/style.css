@@ -244,10 +244,5 @@ nav a:hover {
         height: 200px;
     }
 
-@media (hover: hover) {
-    .flexcontainer img{
-        border-color: rgb(255, 2, 128);
-    }
-}
 
 }
