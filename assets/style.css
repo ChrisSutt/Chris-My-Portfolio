@@ -139,7 +139,6 @@ a {
     height: 200px;
     object-fit: cover;
     border: solid #000000 2px;
- 
 
 }
 
@@ -269,3 +268,13 @@ nav a:hover {
 
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .box {
+        width: 190px;
+        height: 210px;
+        
+    }
+}
+
