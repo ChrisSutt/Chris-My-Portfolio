@@ -10,13 +10,13 @@ please check out the Navigation links to move around my page and check the conte
 
 ## Usage
 
-*Home - Brings you back to the main page
+* Home - Brings you back to the main page
 
-*About Me - Drops you down to the About Me Seciton
+* About Me - Drops you down to the About Me Seciton
 
-*Portfolio - Drops you down to my portfolio
+* Portfolio - Drops you down to my portfolio
 
-*Contact Me - Drops you down to the bottom of the page with links of my socials / contact info.
+* Contact Me - Drops you down to the bottom of the page with links of my socials / contact info.
 
 ## Roadmap
 
