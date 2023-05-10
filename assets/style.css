@@ -1,7 +1,10 @@
+/* Global Font */
 * {
     font-family:Helvetica;
 }
+/* Global End */
 
+/*Header, Nav*/
 header img {
     max-width: 70%;
     height: auto;
@@ -45,8 +48,9 @@ header img {
     text-decoration: none;
     font-weight: bold;
 }
+/* Header, Nav End*/
 
-
+/* Hero Image */
 .me {
     box-shadow: 0px 1px 5px rgb(0, 0, 0) inset;
     height: 400px;
@@ -55,8 +59,9 @@ header img {
     background-size: cover;
     background-position: center;
 }
+/* Hero Image End */
 
-
+/* AboutMe Section */
 .content {
     width: 100%;
     display: flex;
@@ -85,15 +90,18 @@ header img {
     margin-top: 5px;
     padding-right: 800px;
 }
+/* AboutMe End*/
 
+/*Body Background*/
 .gradient {
     background-image: radial-gradient(silver,rgb(51, 51, 51),black);
 }
+/*Body Background end*/
 
+/* about me / portfolio titles */
 #title {
  padding-right: 100px
 }
-
 
 .sectiontitle {
     display: flex;
@@ -106,7 +114,11 @@ header img {
     
 }
 
+/* about me / portfolio titles end */
 
+/* Portfolio section */
+
+/* Main Box */
 .flexcontainer {
     display: flex;
     flex-flow: row wrap;
@@ -116,6 +128,7 @@ header img {
 
 }
 
+/* Large Image Resizing override */
 #box-portfolio {
     width: 75%;
     height: 400px;
@@ -125,21 +138,13 @@ header img {
     height: 400px; 
 }
 
+/* Removes All hyperlink underlines */
 a {
     text-decoration: none;
 }
 
+/* Image overlay Text */
 .text {
-    /*
-    display: flex;
-    background-color: rgb(51, 51, 51);
-    color: silver;
-    font-size: 16px;
-    padding: 5px 16px;
-    opacity: 1;
-    */
-
-    /* New */
     position: absolute;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
@@ -153,16 +158,16 @@ a {
 }
 
 
-
+/* sets box 1,2,3,4 image size */
 .flexcontainer img {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border: solid #000000 2px;
     position: relative;/* New */
 
 }
 
+/* box 1,2,3,4 hover effects */
 .box:hover {
     transform: scale(1.01);
     box-shadow: 0px 0px 25px 1px silver;
@@ -178,7 +183,7 @@ nav a:hover {
     
 }
 
- 
+ /* box 1,2,3,4 standard size */
 .box {
     margin-bottom: 25px;
     width: 500px;
@@ -186,8 +191,9 @@ nav a:hover {
     padding: 1px;
     position: relative;/* New */
 }
+/* Portfolio Section End */
 
-
+/* Footer */
 .footer {
     display: flex;
     flex-wrap: wrap;
@@ -228,6 +234,10 @@ nav a:hover {
     text-align: center;
 }
 
+/* Footer End */
+
+
+/* Media Resizing */
 @media screen and (max-width: 992px) {
     #box-portfolio {
         flex: 0 5 550px;
@@ -287,3 +297,4 @@ nav a:hover {
 
 
 }
+/* Media Resizing End */
